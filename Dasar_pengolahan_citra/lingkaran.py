@@ -19,7 +19,7 @@ else:
         # Buat lingkaran.
         cv2.circle(citra, (xTengah, yTengah), 100, [255,255,255], 10)
 
-        # Tampilkan citra
+        # Tampilkan citra.
         cv2.imshow('Hasil',citra)
 
         cv2.waitKey(0)
