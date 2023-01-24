@@ -16,7 +16,7 @@ else:
         xTengah = jumKolom // 2
         yTengah = jumBaris //2
 
-        # Buat lingkaran 
+        # Buat lingkaran.
         cv2.circle(citra, (xTengah, yTengah), 100, [255,255,255], 10)
 
         # Tampilkan citra
