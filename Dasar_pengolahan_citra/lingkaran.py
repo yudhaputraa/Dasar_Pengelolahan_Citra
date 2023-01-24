@@ -1,4 +1,4 @@
-# Pembuatan lingkaran di tengah gambar
+# Pembuatan lingkaran di tengah gambar.
 
 import cv2
 import sys
