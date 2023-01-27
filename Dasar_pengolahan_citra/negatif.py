@@ -1,4 +1,4 @@
-# pengaturan kecerahan
+# pengaturan kecerahan.
 
 import cv2
 
