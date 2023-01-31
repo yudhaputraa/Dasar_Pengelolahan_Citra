@@ -1,4 +1,4 @@
-# Konversi ke citra biner menggunakan metode otsu
+# Konversi ke citra biner menggunakan metode otsu.
 
 import cv2
 
