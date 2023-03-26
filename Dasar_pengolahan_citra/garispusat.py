@@ -19,7 +19,7 @@ else:
         # Buat garis tegak
         cv2.line(citra, (xTengah, 0), (yTengah, jumBaris - 1), [128,128,128], 5)
 
-        # Buat garis mendatar
+        # Buat garis mendatar.
         cv2.line(citra, (0, yTengah), (jumKolom - 1, yTengah), [128,128,128], 5)
 
         # Tampilkan citra
