@@ -22,7 +22,7 @@ else:
         # Buat garis mendatar.
         cv2.line(citra, (0, yTengah), (jumKolom - 1, yTengah), [128,128,128], 5)
 
-        # Tampilkan citra
+        # Tampilkan citra.
         cv2.imshow('hasil', citra)
 
         cv2.waitKey(0)
