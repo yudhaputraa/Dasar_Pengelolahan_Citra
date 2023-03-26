@@ -16,7 +16,7 @@ else:
         xTengah = jumKolom // 2
         yTengah = jumBaris // 2
         
-        # Buat garis tegak
+        # Buat garis tegak.
         cv2.line(citra, (xTengah, 0), (yTengah, jumBaris - 1), [128,128,128], 5)
 
         # Buat garis mendatar.
