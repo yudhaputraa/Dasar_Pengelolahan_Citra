@@ -1,4 +1,4 @@
-# pembuatan garis tegak dan mendaftar memalui titik tengah citra
+# pembuatan garis tegak dan mendaftar memalui titik tengah citra.
 
 import cv2
 import sys
