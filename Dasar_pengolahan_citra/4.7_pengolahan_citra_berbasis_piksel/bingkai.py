@@ -1,16 +1,22 @@
-# Contoh pemberian bingkai pd citra berskala berwarna
+# Contoh pemberian bingkai pd citra berskala keabu-abuan
 
 import cv2
 
-citra = cv2.imread('peppers.png')
-hasil = citra.copy() # salin isi citra.
+citra = cv2.imread('Baboon.png')
+
+if citra is not None:
+    print("Gambar berhasil dibaca.")
+else:
+    print("Gambar tidak dapat dibaca.")
+
+hasil = citra.copy() # salin isi citra
 
 # pengolahan citra
-TEBAL = 10
-HITAM = [0,0,0]
+TEBAL =20
+HITAM = 0
 
-jumBaris = hasil.shape[0]
-jumKolom = hasil.shape[1]
+jumBaris = hasil.shape[0] # digunakan utk memeroleh jumlah baris
+jumKolom = hasil.shape[1] # digunakan utk memeroleh jumlah kolom
 
 # -- Bingkai di atas
 for baris in range(TEBAL):

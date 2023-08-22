@@ -1,13 +1,13 @@
-# Contoh pemberian bingkai pd citra berskala keabu-abuan
+# Contoh pemberian bingkai pd citra berskala berwarna
 
 import cv2
 
-citra = cv2.imread('goldhill.jpg')
-hasil = citra.copy() # salin isi citra
+citra = cv2.imread('Baboon.png')
+hasil = citra.copy() # salin isi citra.
 
 # pengolahan citra
-TEBAL =20
-HITAM = 0
+TEBAL = 10
+HITAM = [0,0,0]
 
 jumBaris = hasil.shape[0]
 jumKolom = hasil.shape[1]
