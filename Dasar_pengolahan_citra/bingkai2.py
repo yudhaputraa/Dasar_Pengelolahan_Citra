@@ -3,7 +3,7 @@
 import cv2
 
 citra = cv2.imread('peppers.png')
-hasil = citra.copy() # salin isi citra
+hasil = citra.copy() # salin isi citra.
 
 # pengolahan citra
 TEBAL = 10
