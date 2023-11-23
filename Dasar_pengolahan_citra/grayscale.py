@@ -1,4 +1,4 @@
-# Pembacaan baboon.png dalam bentuk skala keabu-abuan
+# Pembacaan baboon.png dalam bentuk skala keabu-abuan.
 
 import cv2
 
