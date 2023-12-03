@@ -1,4 +1,4 @@
-# Inversi Citra
+# Inversi Citra.
 
 import cv2
 import sys
