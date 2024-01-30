@@ -9,6 +9,6 @@ try:
     model = YOLO('yolov8m-pose.pt')
 
     # Run inference on the source
-    results = model(source="citra.mp4", show=True, conf=0.3, save=True)
+    results = model(source="citra2.mp4", show=True, conf=0.3, save=True)
 except Exception as e:
     print(f"Error: {e}")
